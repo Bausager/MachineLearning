@@ -37,8 +37,7 @@ x_train, x_test, y_train, y_test = model_selection.train_test_split(x, y, test_s
 
 # n_jobs are threads (-1 is all your processor can do)
 clf = LinearRegression(n_jobs=-1)
-# clf = svm.SVR(kernel='poly')
-# clf = svm.SVR()
+# clf = svm.SVR(gamma='auto', kernel='rbf')
 
 
 clf.fit(x_train, y_train)
