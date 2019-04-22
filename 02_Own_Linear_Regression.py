@@ -1,8 +1,8 @@
-from statistics import mean
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib import style
 import random
+from statistics import mean
 
 style.use('fivethirtyeight')
 
