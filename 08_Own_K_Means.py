@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 from matplotlib import style
 import numpy as np
-from MyModules.MachineLearning import K_Means
+from MyModules.MachineLearningTraning import K_Means
 style.use('ggplot')
 colors = 10 * ["g", "r", "c", "b", "k"]
 

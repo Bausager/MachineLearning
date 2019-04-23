@@ -1,5 +1,5 @@
 import numpy as np
-from MyModules import MachineLearning as ML
+from MyModules import MachineLearningTraning as ML
 svm = ML.Support_Vector_Machine()
 
 data_dict = {-1: np.array([[1, 7], [2, 8], [3, 8]]),

@@ -1,6 +1,6 @@
 import pandas as pd
 import random
-from MyModules import MachineLearning as ML
+from MyModules import MachineLearningTraning as ML
 NN = ML.Nearest_Neighbors()
 
 accuracies = []

@@ -3,7 +3,7 @@ import numpy as np
 from sklearn.cluster import KMeans
 from sklearn import preprocessing
 import pandas as pd
-from MyModules.MachineLearning import handle_non_numerical_data
+from MyModules.MachineLearningTraning import handle_non_numerical_data
 
 '''
 Pclass Passenger Class (1 = 1st; 2 = 2nd; 3 = 3rd)

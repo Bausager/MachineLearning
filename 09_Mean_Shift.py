@@ -1,6 +1,6 @@
 # https://pythonprogramming.net/static/downloads/machine-learning-data/titanic.xls
 import numpy as np
-from MyModules.MachineLearning import handle_non_numerical_data
+from MyModules.MachineLearningTraning import handle_non_numerical_data
 from sklearn.cluster import MeanShift
 from sklearn import preprocessing
 import pandas as pd
